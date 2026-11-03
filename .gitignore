@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+/.pnpm-store
+/jspm_packages/
+
+# Next.js build output
+.next/
+out/
+
+# Production build output (if using custom server)
+dist/
+
+# Debug and log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Local environment files (DO NOT COMMIT SENSITIVE KEYS)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Allow committing the example file if you use one
+!.env.example
+
+# TypeScript / Build diagnostics
+*.tsbuildinfo
+.eslintcache
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Vercel Deployment (if applicable)
+.vercel
